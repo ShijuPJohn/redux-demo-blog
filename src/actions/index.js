@@ -1,5 +1,5 @@
-export const demoAction=()=>{
+export const fetchPosts=()=>{
     return({
-        type:'NOTHING'
+        type:'FETCH_POSTS'
     })
 }
