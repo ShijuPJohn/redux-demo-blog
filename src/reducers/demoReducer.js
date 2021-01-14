@@ -1,7 +1,7 @@
-export const demoReducer = (state = true, action) => {
+export const demoReducer = (state = {}, action) => {
     console.log(action)
     if (action.type === 'FETCH_POSTS') {
-        return !state
+        return action.payload
     }
     return state
 }

@@ -4,7 +4,8 @@ import {fetchPosts} from "../actions";
 
 class PostList extends Component {
     render() {
-        console.log(this.props.state.demo)
+        console.log(this.props)
+        this.props.fetchPosts()
         return (
             <div>
                 Post List
